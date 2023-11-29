@@ -1,0 +1,7 @@
+.slider-container {
+  background: #2c2c2c; /* Fallback para navegadores que não suportam gradient */
+  background: linear-gradient(to bottom, #2c2c2c, #ffffff);
+  /* Outras propriedades de estilo para a div, como largura, altura, etc. */
+  width: 100%;
+  height: 30rem; /* Ajuste a altura conforme necessário */
+}
