@@ -1,0 +1,194 @@
+.container {
+    background-color: #e0e0e0;
+    padding-left: 15rem;
+    padding-right: 13rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.sidebar {
+    background-color: #fff;
+    width: 20rem;
+    height: 10;
+    margin-top: 3rem;
+    position: absolute;
+}
+
+.busca-card-area {
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 22rem;
+}
+
+/* Adicione esses estilos ao seu arquivo busca.css */
+
+.busca-anuncios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.busca-card-extention {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.busca-card-extention:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+    transform: scale(1.05);
+    background-color: #191919;
+}
+
+.busca-card-extention:hover .busca-titulo {
+    color: #e72c03;
+}
+
+.busca-card-extention:hover .busca-preco {
+    color: #e72c03;
+}
+
+.busca-card-extention:hover .stars {
+    color: #ffd700;
+}
+
+.busca-card-img {
+    width: 100%;
+    height: 12rem;
+    border-radius: 5px;
+    margin-left: 0;
+    transition: 0.3s ease;
+}
+
+.busca-titulo {
+    
+    
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #191919;
+    transition: 0.3s ease;
+    cursor: default;
+}
+
+.stars {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    color: #191919;
+    cursor: default;
+}
+
+.busca-card-button {
+    position: absolute;
+    bottom: 2rem;
+    left: 78%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #ffd700;
+    color: #191919;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 5rem;
+}
+
+.busca-card-extention:hover .busca-card-button {
+    opacity: 1;
+}
+
+.busca-preco {
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    cursor: default;
+}
+
+.no-results{
+    margin-top: 3rem;
+    
+    font-size: 2rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    cursor: default;
+    margin-bottom: 50rem;
+}
+.sidebar h3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    cursor: default;
+
+}
+.filter-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-buttons button {
+    background-color: #e0e0e0;
+    border: none;
+    color: #000;
+    padding: 0.5rem;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.1rem 0.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.filter-buttons button:hover {
+    background-color: #ffd700;
+    color: #191919;
+}
+.sidebar-busca{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    cursor: default;
+}
+.busca-title{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    cursor: default;
+}
+.busca-keywords{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    cursor: default;
+}

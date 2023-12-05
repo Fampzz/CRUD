@@ -1,0 +1,1102 @@
+[
+  {
+      "id": 1,
+      "nome": "Faca Chef Profissional",
+      "preco": 89.99,
+      "quantidade_estoque": 35,
+      "categoria": "Casa",
+      "caracteristicas": "Aço de alta qualidade, cabo ergonômico",
+      "avaliacao_geral": 4.9,
+      "imagem": ""
+  },
+  {
+      "id": 2,
+      "nome": "Fone de Ouvido Bluetooth",
+      "preco": 79.99,
+      "quantidade_estoque": 50,
+      "categoria": "Eletrônicos",
+      "caracteristicas": "Conexão Bluetooth, Cancelamento de Ruído",
+      "avaliacao_geral": 4.8,
+      "imagem": ""
+  },
+  {
+      "id": 3,
+      "nome": "Jaqueta de Couro Vintage",
+      "preco": 149.99,
+      "quantidade_estoque": 25,
+      "categoria": "Roupas",
+      "caracteristicas": "Couro legítimo, Design clássico",
+      "avaliacao_geral": 4.7,
+      "imagem": ""
+  },
+  {
+      "id": 4,
+      "nome": "Secador de Cabelo Profissional",
+      "preco": 129.99,
+      "quantidade_estoque": 40,
+      "categoria": "Beleza",
+      "caracteristicas": "Potência de 2000W, Tecnologia de Íons",
+      "avaliacao_geral": 4.6,
+      "imagem": ""
+  },
+  {
+      "id": 5,
+      "nome": "Livro Best-Seller",
+      "preco": 19.99,
+      "quantidade_estoque": 60,
+      "categoria": "Livros",
+      "caracteristicas": "Autor renomado, Edição especial",
+      "avaliacao_geral": 4.9,
+      "imagem": ""
+  },
+  {
+      "id": 6,
+      "nome": "Bola de Futebol Profissional",
+      "preco": 39.99,
+      "quantidade_estoque": 30,
+      "categoria": "Esportes",
+      "caracteristicas": "Tamanho oficial, Durável",
+      "avaliacao_geral": 4.8,
+      "imagem": ""
+  },
+  {
+      "id": 7,
+      "nome": "Colar de Pérolas",
+      "preco": 199.99,
+      "quantidade_estoque": 20,
+      "categoria": "Jóias",
+      "caracteristicas": "Pérolas naturais, Elegante",
+      "avaliacao_geral": 4.7,
+      "imagem": ""
+  },
+  {
+      "id": 8,
+      "nome": "Caneca Personalizada",
+      "preco": 9.99,
+      "quantidade_estoque": 100,
+      "categoria": "Personalizados",
+      "caracteristicas": "Design exclusivo, Resistente",
+      "avaliacao_geral": 4.9,
+      "imagem": ""
+  },
+  {
+      "id": 9,
+      "nome": "Tênis Esportivo",
+      "preco": 69.99,
+      "quantidade_estoque": 45,
+      "categoria": "Calçados",
+      "caracteristicas": "Leve, Confortável",
+      "avaliacao_geral": 4.8,
+      "imagem": ""
+  },
+  {
+      "id": 10,
+      "nome": "Almofada Decorativa",
+      "preco": 29.99,
+      "quantidade_estoque": 55,
+      "categoria": "Decoração",
+      "caracteristicas": "Estampas variadas, Material macio",
+      "avaliacao_geral": 4.7,
+      "imagem": ""
+  },
+  {
+      "id": 11,
+      "nome": "Quebra-Cabeça Infantil",
+      "preco": 14.99,
+      "quantidade_estoque": 75,
+      "categoria": "Brinquedos",
+      "caracteristicas": "Diversos temas, Ideal para crianças",
+      "avaliacao_geral": 4.9,
+      "imagem": ""
+  },
+  {
+      "id": 12,
+      "nome": "Kit de Pintura para Crianças",
+      "preco": 24.99,
+      "quantidade_estoque": 40,
+      "categoria": "Crianças",
+      "caracteristicas": "Tintas não tóxicas, Pincéis inclusos",
+      "avaliacao_geral": 4.8,
+      "imagem": ""
+  },
+  {
+    "id": 13,
+    "nome": "Smart TV 4K",
+    "preco": 799.99,
+    "quantidade_estoque": 15,
+    "categoria": "Eletrônicos",
+    "caracteristicas": "Tela 4K, Smart TV, Alta definição",
+    "avaliacao_geral": 4.9,
+    "imagem": ""
+},
+{
+    "id": 14,
+    "nome": "Vestido de Festa",
+    "preco": 129.99,
+    "quantidade_estoque": 30,
+    "categoria": "Roupas",
+    "caracteristicas": "Elegante, Vários tamanhos",
+    "avaliacao_geral": 4.7,
+    "imagem": ""
+},
+{
+    "id": 15,
+    "nome": "Kit de Maquiagem Profissional",
+    "preco": 59.99,
+    "quantidade_estoque": 40,
+    "categoria": "Beleza",
+    "caracteristicas": "Diversidade de cores, Durável",
+    "avaliacao_geral": 4.8,
+    "imagem": ""
+},
+{
+    "id": 16,
+    "nome": "Coleção de Poesias",
+    "preco": 24.99,
+    "quantidade_estoque": 50,
+    "categoria": "Livros",
+    "caracteristicas": "Poetas renomados, Capa dura",
+    "avaliacao_geral": 4.6,
+    "imagem": ""
+},
+{
+    "id": 17,
+    "nome": "Bola de Basquete",
+    "preco": 29.99,
+    "quantidade_estoque": 25,
+    "categoria": "Esportes",
+    "caracteristicas": "Tamanho oficial, Excelente aderência",
+    "avaliacao_geral": 4.8,
+    "imagem": ""
+},
+{
+    "id": 18,
+    "nome": "Brinco de Ouro 18k",
+    "preco": 349.99,
+    "quantidade_estoque": 10,
+    "categoria": "Jóias",
+    "caracteristicas": "Ouro 18k, Design exclusivo",
+    "avaliacao_geral": 4.9,
+    "imagem": ""
+},
+{
+    "id": 19,
+    "nome": "Caneca Personalizada com Foto",
+    "preco": 14.99,
+    "quantidade_estoque": 60,
+    "categoria": "Personalizados",
+    "caracteristicas": "Personalize com sua foto, Resistente",
+    "avaliacao_geral": 4.7,
+    "imagem": ""
+},
+{
+    "id": 20,
+    "nome": "Sapatênis Casual",
+    "preco": 49.99,
+    "quantidade_estoque": 35,
+    "categoria": "Calçados",
+    "caracteristicas": "Confortável, Estiloso",
+    "avaliacao_geral": 4.8,
+    "imagem": ""
+},
+{
+    "id": 21,
+    "nome": "Vaso Decorativo",
+    "preco": 39.99,
+    "quantidade_estoque": 45,
+    "categoria": "Decoração",
+    "caracteristicas": "Design moderno, Material resistente",
+    "avaliacao_geral": 4.6,
+    "imagem": ""
+},
+{
+    "id": 22,
+    "nome": "Quebra-Cabeça 3D",
+    "preco": 19.99,
+    "quantidade_estoque": 20,
+    "categoria": "Brinquedos",
+    "caracteristicas": "Montagem tridimensional, Vários modelos",
+    "avaliacao_geral": 4.9,
+    "imagem": ""
+},
+{
+    "id": 23,
+    "nome": "Fantasia Infantil",
+    "preco": 34.99,
+    "quantidade_estoque": 55,
+    "categoria": "Crianças",
+    "caracteristicas": "Diversos personagens, Tamanhos variados",
+    "avaliacao_geral": 4.7,
+    "imagem": ""
+},
+{
+    "id": 24,
+    "nome": "Monitor Gamer",
+    "preco": 349.99,
+    "quantidade_estoque": 15,
+    "categoria": "Eletrônicos",
+    "caracteristicas": "Alta taxa de atualização, Tamanho ideal",
+    "avaliacao_geral": 4.8,
+    "imagem": ""
+},
+{
+    "id": 25,
+    "nome": "Blusa de Tricô",
+    "preco": 59.99,
+    "quantidade_estoque": 25,
+    "categoria": "Roupas",
+    "caracteristicas": "Tricô macio, Design elegante",
+    "avaliacao_geral": 4.6,
+    "imagem": ""
+},
+{
+    "id": 26,
+    "nome": "Secador de Cabelo Compacto",
+    "preco": 49.99,
+    "quantidade_estoque": 30,
+    "categoria": "Beleza",
+    "caracteristicas": "Portátil, Leve",
+    "avaliacao_geral": 4.7,
+    "imagem": ""
+},
+{
+    "id": 27,
+    "nome": "Livro de Ficção Científica",
+    "preco": 24.99,
+    "quantidade_estoque": 40,
+    "categoria": "Livros",
+    "caracteristicas": "Universo fascinante, Autor renomado",
+    "avaliacao_geral": 4.9,
+    "imagem": ""
+},
+{
+    "id": 28,
+    "nome": "Bola de Vôlei Profissional",
+    "preco": 39.99,
+    "quantidade_estoque": 20,
+    "categoria": "Esportes",
+    "caracteristicas": "Ideal para treinos, Durável",
+    "avaliacao_geral": 4.8,
+    "imagem": ""
+},
+{
+    "id": 29,
+    "nome": "Anel de Prata 925",
+    "preco": 79.99,
+    "quantidade_estoque": 15,
+    "categoria": "Jóias",
+    "caracteristicas": "Prata 925, Design exclusivo",
+    "avaliacao_geral": 4.7,
+    "imagem": ""
+},
+{
+  "id": 30,
+  "nome": "Capa para Notebook",
+  "preco": 29.99,
+  "quantidade_estoque": 35,
+  "categoria": "Eletrônicos",
+  "caracteristicas": "Proteção resistente, Diversos tamanhos",
+  "avaliacao_geral": 4.6,
+  "imagem": ""
+},
+{
+  "id": 31,
+  "nome": "Camiseta Estampada",
+  "preco": 19.99,
+  "quantidade_estoque": 50,
+  "categoria": "Roupas",
+  "caracteristicas": "Estampas variadas, Confortável",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 32,
+  "nome": "Kit de Pincéis de Maquiagem",
+  "preco": 39.99,
+  "quantidade_estoque": 40,
+  "categoria": "Beleza",
+  "caracteristicas": "Diversidade de pincéis, Qualidade profissional",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 33,
+  "nome": "Livro de Autoajuda",
+  "preco": 14.99,
+  "quantidade_estoque": 60,
+  "categoria": "Livros",
+  "caracteristicas": "Inspirador, Sucesso de vendas",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 34,
+  "nome": "Bola de Rugby",
+  "preco": 24.99,
+  "quantidade_estoque": 25,
+  "categoria": "Esportes",
+  "caracteristicas": "Resistente, Tamanho oficial",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 35,
+  "nome": "Pulseira de Prata 925",
+  "preco": 69.99,
+  "quantidade_estoque": 20,
+  "categoria": "Jóias",
+  "caracteristicas": "Prata 925, Elegante",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 36,
+  "nome": "Caneca Mágica Personalizada",
+  "preco": 16.99,
+  "quantidade_estoque": 70,
+  "categoria": "Personalizados",
+  "caracteristicas": "Revela imagem ao calor, Personalize como quiser",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 37,
+  "nome": "Sandália Feminina",
+  "preco": 49.99,
+  "quantidade_estoque": 35,
+  "categoria": "Calçados",
+  "caracteristicas": "Confortável, Estilosa",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 38,
+  "nome": "Quadro Decorativo",
+  "preco": 44.99,
+  "quantidade_estoque": 45,
+  "categoria": "Decoração",
+  "caracteristicas": "Diversos modelos, Material de qualidade",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 39,
+  "nome": "Kit de Ferramentas Infantil",
+  "preco": 29.99,
+  "quantidade_estoque": 30,
+  "categoria": "Brinquedos",
+  "caracteristicas": "Seguro para crianças, Diversão educativa",
+  "avaliacao_geral": 4.6,
+  "imagem": ""
+},
+{
+  "id": 40,
+  "nome": "Boneca Interativa",
+  "preco": 79.99,
+  "quantidade_estoque": 25,
+  "categoria": "Crianças",
+  "caracteristicas": "Funcionalidades interativas, Estimula aprendizado",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 41,
+  "nome": "Câmera Fotográfica Profissional",
+  "preco": 999.99,
+  "quantidade_estoque": 10,
+  "categoria": "Eletrônicos",
+  "caracteristicas": "Alta resolução, Versatilidade",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 42,
+  "nome": "Calça Jeans Masculina",
+  "preco": 59.99,
+  "quantidade_estoque": 20,
+  "categoria": "Roupas",
+  "caracteristicas": "Modelagem moderna, Confortável",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 43,
+  "nome": "Kit de Manicure e Pedicure",
+  "preco": 34.99,
+  "quantidade_estoque": 40,
+  "categoria": "Beleza",
+  "caracteristicas": "Completamente equipado, Durável",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 44,
+  "nome": "Livro de Suspense",
+  "preco": 18.99,
+  "quantidade_estoque": 50,
+  "categoria": "Livros",
+  "caracteristicas": "Envolvente, Surpreendente",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 45,
+  "nome": "Bola de Tênis",
+  "preco": 9.99,
+  "quantidade_estoque": 30,
+  "categoria": "Esportes",
+  "caracteristicas": "Alta durabilidade, Excelente rebatida",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 46,
+  "nome": "Brinco de Pérola",
+  "preco": 119.99,
+  "quantidade_estoque": 15,
+  "categoria": "Jóias",
+  "caracteristicas": "Pérola natural, Design clássico",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 47,
+  "nome": "Caneca Térmica Personalizada",
+  "preco": 24.99,
+  "quantidade_estoque": 60,
+  "categoria": "Personalizados",
+  "caracteristicas": "Mantém a temperatura, Personalize como desejar",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 48,
+  "nome": "Sapato Social Masculino",
+  "preco": 89.99,
+  "quantidade_estoque": 35,
+  "categoria": "Calçados",
+  "caracteristicas": "Elegante, Confortável",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 49,
+  "nome": "Abajur Decorativo",
+  "preco": 49.99,
+  "quantidade_estoque": 45,
+  "categoria": "Decoração",
+  "caracteristicas": "Design moderno, Iluminação suave",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 50,
+  "nome": "Quebra-Cabeça de Madeira",
+  "preco": 29.99,
+  "quantidade_estoque": 20,
+  "categoria": "Brinquedos",
+  "caracteristicas": "Material sustentável, Desafio divertido",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 51,
+  "nome": "Tablet Android",
+  "preco": 199.99,
+  "quantidade_estoque": 25,
+  "categoria": "Eletrônicos",
+  "caracteristicas": "Tela HD, Armazenamento amplo",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 52,
+  "nome": "Vestido Casual",
+  "preco": 39.99,
+  "quantidade_estoque": 40,
+  "categoria": "Roupas",
+  "caracteristicas": "Confortável, Ideal para o dia a dia",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 53,
+  "nome": "Kit de Maquiagem Completo",
+  "preco": 89.99,
+  "quantidade_estoque": 30,
+  "categoria": "Beleza",
+  "caracteristicas": "Ampla variedade de produtos, Qualidade profissional",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 54,
+  "nome": "Livro de Romance",
+  "preco": 12.99,
+  "quantidade_estoque": 60,
+  "categoria": "Livros",
+  "caracteristicas": "História envolvente, Ideal para leitura relaxante",
+  "avaliacao_geral": 4.6,
+  "imagem": ""
+},
+{
+  "id": 55,
+  "nome": "Bola de Handebol",
+  "preco": 19.99,
+  "quantidade_estoque": 20,
+  "categoria": "Esportes",
+  "caracteristicas": "Alta aderência, Resistente",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 56,
+  "nome": "Brinco de Diamante",
+  "preco": 699.99,
+  "quantidade_estoque": 5,
+  "categoria": "Jóias",
+  "caracteristicas": "Diamante legítimo, Design exclusivo",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 57,
+  "nome": "Caneca Térmica de Viagem",
+  "preco": 34.99,
+  "quantidade_estoque": 70,
+  "categoria": "Personalizados",
+  "caracteristicas": "Mantém a temperatura, Design personalizado",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 58,
+  "nome": "Sapato Feminino Social",
+  "preco": 79.99,
+  "quantidade_estoque": 40,
+  "categoria": "Calçados",
+  "caracteristicas": "Elegante, Confortável",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 59,
+  "nome": "Vaso de Plantas Decorativo",
+  "preco": 29.99,
+  "quantidade_estoque": 45,
+  "categoria": "Decoração",
+  "caracteristicas": "Design moderno, Ideal para ambientes internos",
+  "avaliacao_geral": 4.6,
+  "imagem": ""
+},
+{
+  "id": 60,
+  "nome": "Quebra-Cabeça Gigante",
+  "preco": 49.99,
+  "quantidade_estoque": 15,
+  "categoria": "Brinquedos",
+  "caracteristicas": "Grande desafio, Diversão em família",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 61,
+  "nome": "Boneco de Pelúcia",
+  "preco": 29.99,
+  "quantidade_estoque": 25,
+  "categoria": "Crianças",
+  "caracteristicas": "Toque macio, Ideal para crianças pequenas",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 62,
+  "nome": "Smartphone Top de Linha",
+  "preco": 899.99,
+  "quantidade_estoque": 10,
+  "categoria": "Eletrônicos",
+  "caracteristicas": "Alta performance, Câmera avançada",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 63,
+  "nome": "Camisa Social Masculina",
+  "preco": 49.99,
+  "quantidade_estoque": 20,
+  "categoria": "Roupas",
+  "caracteristicas": "Elegante, Confortável",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 64,
+  "nome": "Kit de Cuidados para a Pele",
+  "preco": 54.99,
+  "quantidade_estoque": 30,
+  "categoria": "Beleza",
+  "caracteristicas": "Hidratante, Limpeza facial",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 65,
+  "nome": "Livro de Mistério",
+  "preco": 15.99,
+  "quantidade_estoque": 50,
+  "categoria": "Livros",
+  "caracteristicas": "Enigma intrigante, Suspense garantido",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 66,
+  "nome": "Bola de Golfe",
+  "preco": 9.99,
+  "quantidade_estoque": 30,
+  "categoria": "Esportes",
+  "caracteristicas": "Precisão, Excelente desempenho",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 67,
+  "nome": "Colar de Safira",
+  "preco": 299.99,
+  "quantidade_estoque": 15,
+  "categoria": "Jóias",
+  "caracteristicas": "Safira genuína, Design requintado",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 68,
+  "nome": "Caneca de Cerâmica Personalizada",
+  "preco": 19.99,
+  "quantidade_estoque": 60,
+  "categoria": "Personalizados",
+  "caracteristicas": "Estilo único, Personalize como desejar",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 69,
+  "nome": "Sandália Masculina Casual",
+  "preco": 59.99,
+  "quantidade_estoque": 35,
+  "categoria": "Calçados",
+  "caracteristicas": "Confortável, Versátil",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 70,
+  "nome": "Espelho Decorativo",
+  "preco": 39.99,
+  "quantidade_estoque": 45,
+  "categoria": "Decoração",
+  "caracteristicas": "Estilo moderno, Adiciona elegância",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 71,
+  "nome": "Jogo de Construção Infantil",
+  "preco": 24.99,
+  "quantidade_estoque": 30,
+  "categoria": "Brinquedos",
+  "caracteristicas": "Estimula a criatividade, Peças seguras",
+  "avaliacao_geral": 4.6,
+  "imagem": ""
+},
+{
+  "id": 72,
+  "nome": "Carro de Controle Remoto",
+  "preco": 69.99,
+  "quantidade_estoque": 25,
+  "categoria": "Crianças",
+  "caracteristicas": "Diversão interativa, Fácil de controlar",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 73,
+  "nome": "Câmera de Ação",
+  "preco": 149.99,
+  "quantidade_estoque": 10,
+  "categoria": "Eletrônicos",
+  "caracteristicas": "Resistente à água, Ideal para esportes",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 74,
+  "nome": "Blusa de Moletom",
+  "preco": 29.99,
+  "quantidade_estoque": 20,
+  "categoria": "Roupas",
+  "caracteristicas": "Confortável, Estilosa",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 75,
+  "nome": "Kit de Cabelo Profissional",
+  "preco": 79.99,
+  "quantidade_estoque": 40,
+  "categoria": "Beleza",
+  "caracteristicas": "Secador, Prancha e Modelador",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 76,
+  "nome": "Livro de Aventura",
+  "preco": 13.99,
+  "quantidade_estoque": 50,
+  "categoria": "Livros",
+  "caracteristicas": "Emocionante, Narrativa cativante",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 77,
+  "nome": "Bola de Basquete Infantil",
+  "preco": 14.99,
+  "quantidade_estoque": 30,
+  "categoria": "Esportes",
+  "caracteristicas": "Tamanho adequado, Resistente",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 78,
+  "nome": "Pulseira de Prata com Pedras",
+  "preco": 129.99,
+  "quantidade_estoque": 15,
+  "categoria": "Jóias",
+  "caracteristicas": "Prata com pedras naturais, Design elegante",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 79,
+  "nome": "Caneca de Vidro Personalizada",
+  "preco": 18.99,
+  "quantidade_estoque": 60,
+  "categoria": "Personalizados",
+  "caracteristicas": "Vidro de alta qualidade, Personalize como quiser",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 80,
+  "nome": "Tênis Esportivo Feminino",
+  "preco": 69.99,
+  "quantidade_estoque": 35,
+  "categoria": "Calçados",
+  "caracteristicas": "Leve, Ideal para atividades físicas",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 81,
+  "nome": "Relógio de Parede Decorativo",
+  "preco": 24.99,
+  "quantidade_estoque": 45,
+  "categoria": "Decoração",
+  "caracteristicas": "Design moderno, Funcional",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 82,
+  "nome": "Sapato de Corrida",
+  "preco": 129.99,
+  "quantidade_estoque": 30,
+  "categoria": "Esportes",
+  "caracteristicas": "Leve, Confortável",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 83,
+  "nome": "Pingente de Diamante",
+  "preco": 899.99,
+  "quantidade_estoque": 10,
+  "categoria": "Jóias",
+  "caracteristicas": "Diamante autêntico, Elegante",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 84,
+  "nome": "Caneca Térmica Esportiva",
+  "preco": 19.99,
+  "quantidade_estoque": 40,
+  "categoria": "Personalizados",
+  "caracteristicas": "Mantém a temperatura, Personalize com seu time",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 85,
+  "nome": "Sandália de Praia",
+  "preco": 29.99,
+  "quantidade_estoque": 35,
+  "categoria": "Calçados",
+  "caracteristicas": "Resistente à água, Confortável",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 86,
+  "nome": "Vaso Decorativo de Vidro",
+  "preco": 39.99,
+  "quantidade_estoque": 45,
+  "categoria": "Decoração",
+  "caracteristicas": "Design moderno, Material resistente",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 87,
+  "nome": "Quebra-Cabeça Educativo",
+  "preco": 24.99,
+  "quantidade_estoque": 20,
+  "categoria": "Brinquedos",
+  "caracteristicas": "Estimula o aprendizado, Diversão educativa",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 88,
+  "nome": "Fantasia Infantil de Super-Herói",
+  "preco": 34.99,
+  "quantidade_estoque": 55,
+  "categoria": "Crianças",
+  "caracteristicas": "Diversos personagens, Tamanhos variados",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 89,
+  "nome": "Câmera DSLR",
+  "preco": 799.99,
+  "quantidade_estoque": 15,
+  "categoria": "Eletrônicos",
+  "caracteristicas": "Profissional, Alta qualidade de imagem",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 90,
+  "nome": "Blusa Manga Longa",
+  "preco": 29.99,
+  "quantidade_estoque": 25,
+  "categoria": "Roupas",
+  "caracteristicas": "Confortável, Tecido de qualidade",
+  "avaliacao_geral": 4.6,
+  "imagem": ""
+},
+{
+  "id": 91,
+  "nome": "Kit de Maquiagem Profissional Completo",
+  "preco": 149.99,
+  "quantidade_estoque": 40,
+  "categoria": "Beleza",
+  "caracteristicas": "Variedade de produtos, Qualidade premium",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 92,
+  "nome": "Livro de Romance",
+  "preco": 14.99,
+  "quantidade_estoque": 60,
+  "categoria": "Livros",
+  "caracteristicas": "História envolvente, Emocionante",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 93,
+  "nome": "Bola de Basquete Infantil",
+  "preco": 19.99,
+  "quantidade_estoque": 25,
+  "categoria": "Esportes",
+  "caracteristicas": "Tamanho adequado, Resistente",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 94,
+  "nome": "Anel de Ouro 18k",
+  "preco": 399.99,
+  "quantidade_estoque": 10,
+  "categoria": "Jóias",
+  "caracteristicas": "Ouro 18k, Design elegante",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 95,
+  "nome": "Caneca de Viagem Personalizada",
+  "preco": 16.99,
+  "quantidade_estoque": 70,
+  "categoria": "Personalizados",
+  "caracteristicas": "Ideal para viagens, Personalize como quiser",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 96,
+  "nome": "Chinelo Masculino",
+  "preco": 19.99,
+  "quantidade_estoque": 35,
+  "categoria": "Calçados",
+  "caracteristicas": "Confortável, Durável",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},
+{
+  "id": 97,
+  "nome": "Pôster Decorativo",
+  "preco": 9.99,
+  "quantidade_estoque": 45,
+  "categoria": "Decoração",
+  "caracteristicas": "Diversos temas, Material resistente",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 98,
+  "nome": "Quebra-Cabeça de Encaixe",
+  "preco": 12.99,
+  "quantidade_estoque": 20,
+  "categoria": "Brinquedos",
+  "caracteristicas": "Fácil montagem, Estimula a concentração",
+  "avaliacao_geral": 4.8,
+  "imagem": ""
+},
+{
+  "id": 99,
+  "nome": "Boneco de Pelúcia",
+  "preco": 24.99,
+  "quantidade_estoque": 55,
+  "categoria": "Crianças",
+  "caracteristicas": "Fofo, Ideal para abraços",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 100,
+  "nome": "Monitor Curvo",
+  "preco": 399.99,
+  "quantidade_estoque": 15,
+  "categoria": "Eletrônicos",
+  "caracteristicas": "Curvatura ideal, Alta resolução",
+  "avaliacao_geral": 4.9,
+  "imagem": ""
+},{
+  "id": 101,
+  "nome": "Fone de Ouvido com Cancelamento de Ruído",
+  "preco": 199.99,
+  "quantidade_estoque": 25,
+  "categoria": "Eletrônicos",
+  "caracteristicas": "Qualidade de som premium, Confortável",
+  "avaliacao_geral": 3.5,
+  "imagem": ""
+},
+{
+  "id": 102,
+  "nome": "Jaqueta Corta-Vento",
+  "preco": 79.99,
+  "quantidade_estoque": 40,
+  "categoria": "Roupas",
+  "caracteristicas": "Material resistente, Design moderno",
+  "avaliacao_geral": 2.8,
+  "imagem": ""
+},
+{
+  "id": 103,
+  "nome": "Secador de Cabelo Compacto",
+  "preco": 59.99,
+  "quantidade_estoque": 15,
+  "categoria": "Beleza",
+  "caracteristicas": "Portátil, Design ergonômico",
+  "avaliacao_geral": 4.1,
+  "imagem": ""
+},
+{
+  "id": 104,
+  "nome": "Livro de Mistério",
+  "preco": 14.99,
+  "quantidade_estoque": 30,
+  "categoria": "Livros",
+  "caracteristicas": "Enredo intrigante, Surpreendente",
+  "avaliacao_geral": 3.2,
+  "imagem": ""
+},
+{
+  "id": 105,
+  "nome": "Bola de Basquete",
+  "preco": 29.99,
+  "quantidade_estoque": 20,
+  "categoria": "Esportes",
+  "caracteristicas": "Durável, Ótima aderência",
+  "avaliacao_geral": 4.0,
+  "imagem": ""
+},
+{
+  "id": 106,
+  "nome": "Colar de Prata",
+  "preco": 149.99,
+  "quantidade_estoque": 10,
+  "categoria": "Jóias",
+  "caracteristicas": "Prata de lei, Elegante",
+  "avaliacao_geral": 3.9,
+  "imagem": ""
+},
+{
+  "id": 107,
+  "nome": "Caneca Personalizada com Frases Motivacionais",
+  "preco": 12.99,
+  "quantidade_estoque": 50,
+  "categoria": "Personalizados",
+  "caracteristicas": "Personalize com sua frase favorita, Resistente",
+  "avaliacao_geral": 4.7,
+  "imagem": ""
+},
+{
+  "id": 108,
+  "nome": "Tênis Esportivo para Corrida",
+  "preco": 89.99,
+  "quantidade_estoque": 35,
+  "categoria": "Calçados",
+  "caracteristicas": "Leve, Amortecimento eficiente",
+  "avaliacao_geral": 2.5,
+  "imagem": ""
+},
+{
+  "id": 109,
+  "nome": "Vaso Decorativo de Cerâmica",
+  "preco": 49.99,
+  "quantidade_estoque": 25,
+  "categoria": "Decoração",
+  "caracteristicas": "Estilo contemporâneo, Acabamento elegante",
+  "avaliacao_geral": 4.3,
+  "imagem": ""
+},
+{
+  "id": 110,
+  "nome": "Quebra-Cabeça de 1000 Peças",
+  "preco": 19.99,
+  "quantidade_estoque": 15,
+  "categoria": "Brinquedos",
+  "caracteristicas": "Desafio divertido, Qualidade das peças",
+  "avaliacao_geral": 3.7,
+  "imagem": ""
+}
+
+]

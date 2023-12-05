@@ -1,0 +1,38 @@
+[
+    {
+      "usuario": 1,
+      "itens": [
+        { "produto": 34, "qnt": 2 },
+        { "produto": 15, "qnt": 3 }
+      ]
+    },
+    {
+      "usuario": 2,
+      "itens": [
+        { "produto": 11, "qnt": 1 },
+        { "produto": 4, "qnt": 5 }
+      ]
+    },
+    {
+      "usuario": 3,
+      "itens": [
+        { "produto": 36, "qnt": 4 },
+        { "produto": 17, "qnt": 2 }
+      ]
+    },
+    {
+      "usuario": 4,
+      "itens": [
+        { "produto": 16, "qnt": 3 },
+        { "produto": 20, "qnt": 1 }
+      ]
+    },
+    {
+      "usuario": 5,
+      "itens": [
+        { "produto": 10, "qnt": 2 },
+        { "produto": 56, "qnt": 2 }
+      ]
+    }
+  ]
+  

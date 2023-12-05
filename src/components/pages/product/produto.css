@@ -1,0 +1,71 @@
+/* Produto.css */
+.produto-container {
+    background-color: #e0e0e0;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .produto-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .produto-nome {
+
+  font-size: 3rem;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #191919;
+  transition: 0.3s ease;
+  cursor: default;
+  }
+  
+  .produto-imagem {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .produto-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  .produto-preco{
+    font-size: 2rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    cursor: default;
+  }
+  .produto-rating{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    cursor: default;
+  }
+  
+  
+  .produto-carrinho-botão{
+    background-color: #d4d4d4;
+    color: #191919;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .produto-carrinho-botão:hover {
+    background-color: #FFD700;
+  }
+  /* Adicione outros estilos conforme necessário */
+  

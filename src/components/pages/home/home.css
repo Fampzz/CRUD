@@ -1,0 +1,295 @@
+.home{
+ background-color: #e0e0e0; 
+}
+.home-anuncios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  
+}
+
+.home-anuncios ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.home-anuncios ul li{
+    list-style: none;
+    margin: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 26rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.principais-anuncios-section h1{
+  margin-left: 15rem;
+  font-size: 3rem;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  cursor: default;
+}
+.principais-anuncios-section .title{
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #1203e7;
+}
+.principais-anuncios-section .title:hover{
+  color: #e72c03;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+.principais-anuncios{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.card{
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 14.5rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  transition: 0.3s ease;
+}
+.card:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  transform: scale(1.05);
+  background-color: #191919;
+}
+.card:hover .titulo{
+  color: #e72c03;;
+}
+.card:hover .preco{
+  color: #e72c03;;
+}
+.card:hover .stars{
+  color: #FFD700;;
+}
+.card-img{
+  width: 100%;
+  height: 12rem;
+  border-radius: 5px;
+  margin-left:0;
+  transition: 0.3s ease;
+}
+.titulo{
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #191919;
+  transition: 0.3s ease;
+  cursor: default;
+}
+.stars{
+margin-right: 0.5rem;
+  font-size: 1rem;
+  color: #191919;
+  cursor: default;
+}
+.card-extention {
+  position: relative;
+  overflow: hidden; /* Para garantir que o conteúdo não vaze quando o card aumentar */
+  transition: height 0.3s ease; /* Adicione uma transição suave para a altura */
+
+  /* Restante do seu estilo para .card-extention */
+}
+
+.card-extention:hover {
+  height: auto; /* Permite que o card expanda para mostrar mais conteúdo */
+}
+
+.card-button {
+  position: absolute;
+  bottom: 2rem;
+  left: 78%;
+  transform: translateX(-50%);
+  opacity: 0; /* Comece com o botão invisível */
+  transition: opacity 0.3s ease; /* Adicione uma transição suave para a opacidade */
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #FFD700;
+  color: #191919;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  /* Outros estilos do botão */
+}
+
+
+.card-extention:hover .card-button {
+  opacity: 1; /* Torna o botão visível quando o mouse está sobre .card-extention */
+}
+
+.preco{
+  font-size: 1.5rem;
+  font-weight: 1000;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+  cursor: default;
+}
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Altura total da tela */
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo (mais escura) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Fique na parte superior */
+  
+}
+
+/* Popup */
+.popup {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70rem;
+  max-width: 100%;
+  height: 50rem;
+  max-height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popup img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+
+.popup-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30rem;
+}
+
+.popup-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.popup-title {
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #191919;
+  cursor: default;
+  
+}
+
+.popup-price {
+  font-size: 2rem;
+  font-weight: 1000;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+  cursor: default;
+  
+}
+
+.popup-description {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #191919;
+  cursor: default;
+}
+
+.popup-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0.3;
+  transition: 0.3s ease;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  color: #191919;
+  font-size: 1rem;
+  font-weight: 1000;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.popup-close:hover {
+  background-color: #e72c03;
+  opacity: 1;
+  
+}
+
+.popup-view-product {
+  position: absolute;
+  bottom: 2rem;
+  left: 78%;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 1000;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #fff;
+  color: #191919;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  height: 3rem;
+
+ 
+}
+
+.popup-view-product:hover {
+  background-color: #e72c03;
+
+  opacity: 1;
+}

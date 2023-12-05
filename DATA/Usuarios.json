@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nome": "Fernando",
+        "email": "fernando@example.com",
+        "senha": "123",
+        "telefone": "123456789",
+        "TabelaDados": "",
+        "carrinho": ""
+    },
+    {
+        "id": 2,
+        "nome": "Jhuan",
+        "email": "jhuan@example.com",
+        "senha": "senha456",
+        "telefone": "987654321",
+        "TabelaDados": "",
+        "carrinho": ""
+    },
+    {
+        "id": 3,
+        "nome": "Daniel",
+        "email": "daniel@example.com",
+        "senha": "senha789",
+        "telefone": "555444333",
+        "TabelaDados": "",
+        "carrinho": ""
+    },
+    {
+        "id": 4,
+        "nome": "Judah",
+        "email": "judah@example.com",
+        "senha": "senhaABC",
+        "telefone": "111222333",
+        "TabelaDados": "",
+        "carrinho": ""
+    },
+    {
+        "id": 5,
+        "nome": "Bigode",
+        "email": "bigode@example.com",
+        "senha": "senhaXYZ",
+        "telefone": "999888777",
+        "TabelaDados": "",
+        "carrinho": ""
+    },
+    {
+        "id": 6,
+        "nome": "Sexto Coisa",
+        "email": "sexto@example.com",
+        "senha": "senha12345",
+        "telefone": "777666555",
+        "TabelaDados": "",
+        "carrinho": ""
+    },
+    {
+        "id": 7,
+        "nome": "Cleber ID",
+        "email": "cleber@example.com",
+        "senha": "senhaID",
+        "telefone": "444555666",
+        "TabelaDados": "",
+        "carrinho": ""
+    },
+    {
+    "id": 8,
+        "nome": "Maluco",
+        "email": "1",
+        "senha": "2",
+        "telefone": "444555666",
+        "TabelaDados": "",
+        "carrinho": ""
+    }
+]

@@ -1,84 +1,60 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import jsonData from "../../../../DATA/produtos.json"; // Importe seu arquivo JSON
+import jsonData from "../../../../DATA/produtos.json";
 import img from "../../../img/IMG.jpg";
 import Footer from "../layout/Footer";
 import "./busca.css";
 
-const Busca = () => {
-  const [searchResult, setSearchResult] = useState([]);
-  const { keywords } = useParams();
+const CategoriasPage = () => {
+  const [produtosCategoria, setProdutosCategoria] = useState([]);
+  const { categoria } = useParams();
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [produto, setProduto] = useState([]);
 
-
-  const togglePopupBusca = (id) => {
+  const togglePopup = (id) => {
     setSelectedProduct(selectedProduct === id ? null : id);
   };
 
   useEffect(() => {
-    let filteredResults = jsonData;
-
-    if (keywords) {
-      filteredResults = jsonData.filter((item) =>
-        item.nome.toLowerCase().includes(keywords.toLowerCase())
+    if (categoria) {
+      const produtosFiltrados = jsonData.filter(
+        (produto) => produto.categoria.toLowerCase() === categoria.toLowerCase()
       );
+      setProdutosCategoria(produtosFiltrados);
     }
-
-    setSearchResult(filteredResults);
-  }, [keywords]);
-
+  }, [categoria]);
   const filterByPriceLowToHigh = () => {
-    const sortedResults = [...searchResult].sort((a, b) => a.preco - b.preco);
-    setSearchResult(sortedResults);
+    const sortedResults = [...produtosCategoria].sort(
+      (a, b) => a.preco - b.preco
+    );
+    setProdutosCategoria(sortedResults);
   };
 
   const filterByPriceHighToLow = () => {
-    const sortedResults = [...searchResult].sort((a, b) => b.preco - a.preco);
-    setSearchResult(sortedResults);
+    const sortedResults = [...produtosCategoria].sort(
+      (a, b) => b.preco - a.preco
+    );
+    setProdutosCategoria(sortedResults);
   };
 
   const filterByRating = () => {
-    const sortedResults = [...searchResult].sort(
+    const sortedResults = [...produtosCategoria].sort(
       (a, b) => b.avaliacao_geral - a.avaliacao_geral
     );
-    setSearchResult(sortedResults);
+    setProdutosCategoria(sortedResults);
   };
   const filterByAtoZ = () => {
-    const sortedResults = [...searchResult].sort((a, b) =>
+    const sortedResults = [...produtosCategoria].sort((a, b) =>
       a.nome.localeCompare(b.nome)
     );
-    setSearchResult(sortedResults);
+    setProdutosCategoria(sortedResults);
   };
   const filterByZtoA = () => {
-    const sortedResults = [...searchResult].sort((a, b) =>
+    const sortedResults = [...produtosCategoria].sort((a, b) =>
       b.nome.localeCompare(a.nome)
     );
-    setSearchResult(sortedResults);
+    setProdutosCategoria(sortedResults);
   };
 
-  useEffect(() => {
-    if (keywords) {
-      const results = jsonData.filter((item) =>
-        item.nome.toLowerCase().includes(keywords.toLowerCase())
-      );
-      setSearchResult(results);
-    } else {
-      setSearchResult(jsonData);
-    }
-  }, [keywords]);
-
-  useEffect(() => {
-    if (keywords) {
-      const results = jsonData.filter((item) =>
-        item.nome.toLowerCase().includes(keywords.toLowerCase())
-      );
-      setSearchResult(results); // Define o resultado da busca no estado
-    } else {
-      // Se não houver parâmetros, mostra todos os itens do JSON
-      setSearchResult(jsonData);
-    }
-  }, [keywords]);
 
   const RatingStars = ({ avaliacao }) => {
     const roundedAvaliacao = Math.round(avaliacao * 2) / 2;
@@ -133,17 +109,46 @@ const Busca = () => {
     }
     return <div>{stars}</div>;
   };
+  const renderCategoryTitle = (categoria) => {
+    switch (categoria) {
+      case "Eletrônicos":
+        return "Produtos Eletrônicos e Celulares";
+      case "Roupas":
+        return "Roupas";
+      case "Beleza":
+        return "Produtos de Beleza e Autocuidados";
+      case "Casa":
+        return "Produtos para sua Casa";
+      case "Livros":
+        return "Livros";
+      case "Esportes":
+        return "Produtos Esportivos";
+      case "Jóias":
+        return "Jóias e Acessórios";
+      case "Personalizados":
+        return "Produtos Personalizados";
+      case "Calçados":
+        return "Calçados";
+      case "Acessórios":
+        return "Acessórios";
+      case "Decoração":
+        return "Produtos de Decoração";
+      case "Brinquedos":
+        return "Brinquedos";
+      case "Crianças":
+        return "Produtos para Crianças";
+      default:
+        return categoria;
+    }
+  };
 
   return (
     <div>
       <div className="container">
         <div className="sidebar">
-          {keywords && (
-            <div className="sidebar-busca">
-              <p className="busca-title">Você buscou por</p>
-              <h2 className="busca-keywords">{keywords}</h2>
-            </div>
-          )}
+          <div className="sidebar-busca">
+            <p className="busca-title">{renderCategoryTitle(categoria)}</p>
+          </div>
 
           <h3>Filtrar por:</h3>
           <div className="filter-buttons">
@@ -154,33 +159,89 @@ const Busca = () => {
             <button onClick={filterByZtoA}>Z - A</button>
             {/* Adicione mais botões de filtro conforme necessário */}
           </div>
+          <div className="sidebar-horizontal-divider"></div>
+          <h3>Categorias</h3>
+          <div className="filter-buttons">
+          <Link to="/categoria/Eletrônicos"> 
+          <button>Produtos Eletrônicos e Celulares</button>
+          </Link>
+
+          <Link to="/categoria/Roupas">
+            <button>Roupas</button>
+          </Link>
+
+          <Link to="/categoria/Beleza">
+            <button>Produtos de Beleza e Autocuidados</button>
+          </Link>
+
+          <Link to="/categoria/Casa">
+            <button>Produtos para sua Casa</button>
+          </Link>
+
+          <Link to="/categoria/Livros">
+            <button>Livros</button>
+          </Link>
+
+          <Link to="/categoria/Esportes">
+            <button>Produtos Esportivos</button>
+          </Link>
+
+          <Link to="/categoria/Jóias">
+            <button>Jóias e Acessórios</button>
+          </Link>
+
+          <Link to="/categoria/Personalizados">
+            <button>Produtos Personalizados</button>
+          </Link>
+
+          <Link to="/categoria/Calçados">
+            <button>Calçados</button>
+          </Link>
+
+          <Link to="/categoria/Acessórios">
+            <button>Acessórios</button>
+          </Link>
+
+          <Link to="/categoria/Decoração">
+            <button>Produtos de Decoração</button>
+          </Link>
+
+          <Link to="/categoria/Brinquedos">
+            <button>Brinquedos</button>
+          </Link>
+
+          <Link to="/categoria/Crianças">
+            <button>Produtos para Crianças</button>
+          </Link>
+          </div>
+
         </div>
 
         <div className="busca-card-area">
-          {searchResult.length > 0 ? (
+          {produtosCategoria.length > 0 ? (
             <div className="busca-anuncios">
-              {searchResult.map((produto) => (
+              {produtosCategoria.map((produto) => (
                 <div className="busca-card-extention" key={produto.id}>
                   <div className="busca-card">
-                  <Link to={`/produto/${produto.id}`}>
-                    <img
-                      src={img}
-                      className="busca-card-img"
-                      alt={produto.nome}
-                    />
+                    <Link to={`/produto/${produto.id}`}>
+                      <img
+                        src={img}
+                        className="busca-card-img"
+                        alt={produto.nome}
+                      />
                     </Link>
                     <h3 className="busca-titulo">{produto.nome}</h3>
                     <RatingStars avaliacao={produto.avaliacao_geral} />
                     <p className="busca-preco">R${produto.preco}</p>
                   </div>
                   <Link to={`/produto/${produto.id}`}>
-                  <button
-                    className="busca-card-button"
-                    onClick={() => togglePopupBusca(produto.id)}
-                  >
-                    Ver mais
-                  </button>
-                 </Link>
+                    <button
+                      className="busca-card-button"
+                      onClick={() => togglePopup(produto.id)}
+                    >
+                      Ver mais
+                    </button>
+                  </Link>
                 </div>
               ))}
             </div>
@@ -189,14 +250,11 @@ const Busca = () => {
               Nenhum resultado encontrado ou carregando...
             </p>
           )}
-          
         </div>
-      </div>
-      <div className="popupbusca">
       </div>
       <Footer />
     </div>
   );
 };
 
-export default Busca;
+export default CategoriasPage;

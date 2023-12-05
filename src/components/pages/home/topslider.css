@@ -1,0 +1,23 @@
+/* ImageSlider.css */
+.custom-slider {
+    width: 100%; /* Largura do slider */
+    margin: 0 auto; /* Centraliza o slider */
+  }
+  
+  /* Estilos para os pontos de navegação (dots) */
+  .custom-slider .slick-dots {
+    bottom: 20px; /* Posição dos dots em relação ao slider */
+  }
+  
+  /* Estilos para os dots ativos */
+  .custom-slider .slick-dots li button:before {
+    color: #fff; /* Cor dos dots */
+  }
+  
+  /* Estilos para as imagens no slider */
+  
+  
+  .slider-item{
+    width: 90%;
+  }
+ 

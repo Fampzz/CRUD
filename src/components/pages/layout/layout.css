@@ -1,33 +1,75 @@
 header {
 
-background-color: #191919;
-color: #fff;
-font-family: "Nunito Sans", sans-serif;
-height: 9rem;
-padding: 0.5rem 1rem;
-top: 0;
-width: 100%;
-z-index: 100;
+    background-color: #191919;
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+    height: 9rem;
+    padding: 0.5rem 1rem;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
-img {
-    margin-left: 5rem;
-    width: 5rem;
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
-img:hover {
+/* Logo.css */
+.logo-container {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 5rem;
+
     cursor: pointer;
 }
 
-.top-header{
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease;
+    /* Transição suave de opacidade */
+}
+
+.logo-white {
+    opacity: 1;
+}
+
+.logo-color {
+    opacity: 0;
+}
+
+/* Quando o mouse passa por cima, a logo branca some gradualmente */
+.logo-container:hover .logo-white {
+    opacity: 0;
+}
+
+/* Quando o mouse passa por cima, a logo colorida aparece gradualmente */
+.logo-container:hover .logo-color {
+    opacity: 1;
+}
+
+
+
+.top-header {
     display: flex;
     align-items: center;
+    margin-left: 9rem;
+    margin-right: 11rem;
     margin-top: 1rem;
 
 }
-.busca{
+
+.busca {
     margin-left: 20rem;
     width: 30rem;
-    height: 2rem;
+    height: 2.4rem;
     border-radius: 0.5rem;
     border: 1px solid #191919;
     padding: 0.5rem;
@@ -36,7 +78,8 @@ img:hover {
     background-color: #fff;
 
 }
-.busca input{
+
+.busca input {
     border: none;
     outline: none;
     width: 100%;
@@ -44,7 +87,8 @@ img:hover {
     font-size: 1rem;
 
 }
-.busca button{
+
+.busca button {
     border: none;
     outline: none;
     background-color: #191919;
@@ -54,67 +98,81 @@ img:hover {
     margin-left: 0.5rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
-
+    overflow: hidden;
+    margin-right: 0.3rem;
 }
 
-.bot-header{
-    display: flex; 
+.bot-header {
+    display: flex;
     margin-top: 1rem;
     justify-content: space-between;
     align-items: center;
 }
-.cep{
+
+.cep {
     display: flex;
     align-items: center;
     margin-left: 5rem;
     font-size: 1rem;
     border: 1px solid #fff;
     border-radius: 5px;
-padding: 0.5rem;
-cursor: pointer;
+    padding: 0.5rem;
+    cursor: pointer;
 
 }
-.cep svg{
+
+.cep svg {
     margin-right: 0.5rem;
 }
 
-.bot-header ul{
+.bot-header {
+    margin-left: 9rem;
+    margin-right: 11rem;
+}
+
+.bot-header ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     margin-right: 5rem;
     margin-left: 1rem;
 }
-.bot-header ul li{
+
+.bot-header ul li {
     display: flex;
     align-items: center;
     margin-left: 1rem;
     cursor: pointer;
 }
-.bot-header ul li svg{
+
+.bot-header ul li svg {
     margin-right: 0.5rem;
     width: 2rem;
     height: 2rem;
 }
-.bot-header ul li p{
+
+.bot-header ul li p {
     color: #fff;
     font-size: 1rem;
     margin-left: 0.5rem;
     font-weight: 500;
 }
-.bot-header ul li .desc .text1{
+
+.bot-header ul li .desc .text1 {
     font-size: 0.8rem;
     color: #fff;
     font-weight: 300;
     margin-left: 0.5rem;
 }
+
 .bot-header ul li .desc .text2 {
     font-size: 0.8rem;
     color: #fff;
     font-weight: 500;
     margin-left: 0.5rem;
 }
-.bot-header ul li .desc .cart{
+
+.bot-header ul li .desc .cart {
     font-size: 0.8rem;
     background-color: #fff;
     align-items: center;
@@ -127,3 +185,312 @@ cursor: pointer;
     width: 1.5rem;
 
 }
+
+.cep-popup{
+    position: absolute;
+    top: 10rem;
+    left: 15rem;
+    width: 20rem;
+    border: #fff solid 1px;
+    background-color: #191919;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    z-index: 9999;
+    transition: all 0.3s ease;
+    animation: FadeIn 0.3s ease;
+}
+.cep-popup-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}	
+.cep-popup-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.cep-popup-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    cursor: default;
+}
+.cep-popup-input{
+    border: none;
+    outline: none;
+    width: 8rem;
+    height: 100%;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+.cep-popup-button{
+    border: none;
+    outline: none;
+    background-color: #191919;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    overflow: hidden;
+    margin-right: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cep-popup-button:hover{
+    background-color: #fff;
+    color: #191919;
+}
+.cep-popup-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    background-color: #191919;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.usuario-popup {
+    position: absolute;
+    top: 10rem;
+    right: 21rem;
+    width: 10rem;
+    border: #fff solid 1px;
+    background-color: #191919;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    z-index: 9999;
+    transition: all 0.3s ease;
+    animation: FadeIn 0.3s ease;
+  }
+  
+  .usuario-popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Login-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .usuario-popup-input {
+    border: none;
+    outline: none;
+    width: 9rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .checkbox {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .checkbox-input {
+    margin-right: 0.5rem;
+  }
+  
+  .checkbox-label {
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
+  .usuario-popup-button {
+    border: none;
+    outline: none;
+    background-color: #191919;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 10rem;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .usuario-popup-button:hover {
+    background-color: #fff;
+    color: #191919;
+  }
+ 
+  .usuario-popup-cadastro {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .usuario-popup-cadastro:hover {
+    background-color: #fff;
+    color: #191919;
+    text-decoration: underline;
+  }/* Estilos para a div logado-content */
+.logado-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  /* Estilos para o botão "Anunciar" */
+  .anunciar-botao {
+    border: none;
+    outline: none;
+    background-color: #191919;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 10rem;
+    transition: all 0.3s ease;
+  }
+  
+  .anunciar-botao:hover {
+    background-color: #fff;
+    color: #191919;
+  }
+  
+  /* Estilos para a linha horizontal */
+  .horizontal-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilos para a lista de opções */
+  .logado-opcoes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 10rem;
+  }
+  
+  .logado-opcoes li {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 1px solid #ddd; /* Adapte a cor e estilo da borda conforme necessário */
+  }
+  
+  .logado-opcoes li:last-child {
+    border-bottom: none; /* Remove a borda do último item */
+  }
+  
+  .logado-opcoes li:hover {
+    background-color: #eee; /* Cor de fundo ao passar o mouse */
+    color: #333; /* Cor do texto ao passar o mouse */
+  }
+  
+  /* Estilos para o botão "Sair" */
+  .usuario-popup-button {
+    border: none;
+    outline: none;
+    background-color: #191919;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .usuario-popup-button:hover {
+    background-color: #fff;
+    color: #191919;
+  }
+  .carrinho-popup{
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    width: 20rem;
+    border: #fff solid 1px;
+    background-color: #191919;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    z-index: 9999;
+    transition: all 0.3s ease;
+    animation: FadeIn 0.3s ease;
+  }
+  .carrinho-popup-botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  .carrinho-popup-botoes button{
+    border: none;
+    outline: none;
+    background-color: #191919;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 7rem;
+    transition: all 0.3s ease;
+
+  }
+  .carrinho-popup-botoes button:hover{
+    background-color: #fff;
+    color: #191919;
+  }
